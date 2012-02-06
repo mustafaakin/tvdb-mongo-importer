@@ -1,0 +1,32 @@
+{
+  "name": "tvdb-mongodb-importer",
+  "preferGlobal": "true",
+  "version": "0.0.8",
+  "author": "Mustafa Akin <mustafa91@gmail.com>",
+  "description": "Imports MySQL TVDB archive to Mongo",
+  "bin": {
+    "importer": "importer"
+  },
+  "scripts": {
+    "start": "node importer"
+  },
+  "main": "importer.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mustafaakin/tvdb-mongodb-importer"
+  },
+  "keywords": [
+    "tvdb",
+    "thetvdb",
+    "mongo"
+  ],
+  "dependencies" : {
+    "mysql" :  "0.9.5",
+	"mongoose" : "2.4.10"
+  },
+  "engine": {
+    "node": ">=0.6.6"
+  }
+}
+
+            
