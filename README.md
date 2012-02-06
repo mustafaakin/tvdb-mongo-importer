@@ -8,6 +8,7 @@ In the project folder you must install the dependent packages (mysql & mongoose)
 	
 	npm install mysql
 	npm install mongoose
+	npm install imagemagick // Additional, If image resizing needed.
 	node importer
 	
 ## Mongoose Document ##
