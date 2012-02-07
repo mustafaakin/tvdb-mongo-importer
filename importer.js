@@ -120,7 +120,10 @@ clientSeries.query(
 							} 
 							
 							if ( instance.features.pictures.length <= 0 && filenames && filenames.length > 0){
-								var pictures = [serieId + "_s.jpg", serieId + ".jpg"];
+								var pictures = 
+									[	IMAGE_MONGO_PREFIX + serieId + "_s.jpg", 
+										IMAGE_MONGO_PREFIX + serieId + ".jpg"
+									];
 								instance.features.pictures = pictures;
 							} 
 							
